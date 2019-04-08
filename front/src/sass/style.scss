@@ -1,0 +1,148 @@
+@import "_minix.scss";
+@import "common.scss";
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .header {
+        width: 100%;
+        height: rem(180px);
+        background: #ccc;
+        // background-image: url("./img/ec69b55d745cabce6fb31f10f886049.png");
+        .inpBox {
+            padding: 0 rem(10px);
+            height: rem(50px);
+            input {
+                border: none;
+                background: #fff;
+                width: 100%;
+                height: rem(40px);
+                font-size: rem(20px);
+                text-indent: rem(10px);
+            }
+        }
+        .zhiBox {
+            margin-top: rem(40px);
+            width: 100%;
+            height: rem(30px);
+            line-height: rem(30px);
+            text-align: center;
+            span {
+                font-size: rem(14px);
+            }
+        }
+        .bindBox {
+            padding: 0 rem(30px);
+            height: rem(60px);
+            display: flex;
+            justify-content: space-between;
+            div {
+                width: 49%;
+                height: rem(60px);
+                line-height: rem(60px);
+                background: #fff;
+                text-align: center;
+                display: flex;
+                img {
+                    margin: rem(10px);
+                    width: rem(40px);
+                    height: rem(40px);
+                    // border-radius: 50%;
+                }
+                span {
+                    font-size: rem(20px);
+                }
+            }
+        }
+    }
+    .main {
+        padding: 0 rem(10px);
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        .titleBox {
+            width: 100%;
+            height: rem(70px);
+            line-height: rem(70px);
+            text-align: center;
+            font-size: rem(22px);
+        }
+        .content {
+            // display: flex;
+            // flex-direction: column;
+            flex: 1;
+            overflow: hidden;
+            // overflow-y: scroll;
+            .up {
+                width: 100%;
+                height: rem(50px);
+                line-height: rem(50px);
+                text-align: center;
+                font-size: rem(20px);
+                background: #f0f;
+                color: #000;
+            }
+            // .down {
+            //     width: 100%;
+            //     height: rem(50px);
+            //     line-height: rem(50px);
+            //     text-align: center;
+            //     font-size: rem(20px);
+            //     background: #f0f;
+            //     color: #000;
+            // }
+            .yi {
+                // display: flex;
+                // flex-direction: column;
+                // flex: 1;
+                // overflow: hidden;
+                .kk {
+                    display: flex;
+                    justify-content: space-between;
+                    // column-count: 2;
+                    div {
+                        width: 49%;
+                        dl {
+                            width: 100%;
+                            dt {
+                                width: 100%;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            dd {
+                                height: rem(80px);
+                                h6 {
+                                    width: 100%;
+                                    // height: rem(30px);
+                                    line-height: rem(25px);
+                                    font-size: rem(18px);
+                                    color: #000;
+                                }
+                                p {
+                                    margin-top: rem(10px);
+                                    width: 100%;
+                                    height: rem(20px);
+                                    font-size: rem(16px);
+                                    span {
+                                        margin-left: rem(20px);
+                                        background: #f00;
+                                        border-radius: rem(5px);
+                                        font-size: rem(12px);
+                                        padding: rem(2px) rem(5px);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .nav {
+        position: relative;
+        height: rem(70px);
+    }
+}

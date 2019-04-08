@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/login.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header"><i><</i><span>商品信息</span></div>
+        <div class="main">
+            <p><input type="text" name="" id="user" placeholder="商品名称"></p>
+            <div class="imgg">
+                <div class="add">添加图片</div>
+            </div>
+            <p><span>标签</span><input type="text" class="inpT"></p>
+            <p><span>成分</span><input type="text" class="inpC"></p>
+        </div>
+        <div class="footer">
+            <button class="btn">创建商品</button>
+        </div>
+    </div>
+    <script src="../libs/require.js"></script>
+    <script>
+        require(["../main"], () => {
+            require(["login"])
+        })
+    </script>
+</body>
+
+</html>
